@@ -37,9 +37,10 @@ public class snapsLeaderBoardAdapter extends FirebaseRecyclerAdapter<Model, snap
     @Override
     protected void onBindViewHolder(@NonNull snapsLeaderBoardAdapter.Viewholder holder, @SuppressLint("RecyclerView") int position, @NonNull Model model) {
 
-        String name=model.getFilterName().toString();
+        String name=model.getLeaderName();
         holder.NameTxt.setText(name);
-        Glide.with(holder.imageView.getContext()).load(model.getFilterImage()).into(holder.imageView);
+
+        Glide.with(holder.imageView.getContext()).load(model.getLeaderImage()).into(holder.imageView);
 
 
     }

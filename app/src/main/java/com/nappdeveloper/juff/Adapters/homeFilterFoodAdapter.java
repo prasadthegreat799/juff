@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.core.widget.TextViewCompat;
@@ -55,6 +56,7 @@ public class homeFilterFoodAdapter extends FirebaseRecyclerAdapter<Model, homeFi
         holder.linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Fragment fragment = new filterFoodResultFragment();
                 FragmentManager fragmentManager = ((FragmentActivity) v.getContext()).getSupportFragmentManager(); // this is basically context of the class
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();

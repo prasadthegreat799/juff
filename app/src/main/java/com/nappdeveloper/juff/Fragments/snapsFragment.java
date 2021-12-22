@@ -14,6 +14,7 @@ import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.nappdeveloper.juff.Adapters.homeFilterFoodAdapter;
+import com.nappdeveloper.juff.Adapters.snapsLeaderBoardAdapter;
 import com.nappdeveloper.juff.Adapters.snapsPostAdapter;
 import com.nappdeveloper.juff.Model.Model;
 import com.nappdeveloper.juff.R;
@@ -21,7 +22,7 @@ import com.nappdeveloper.juff.R;
 public class snapsFragment extends Fragment {
 
     RecyclerView RecyclerView;
-    homeFilterFoodAdapter Adapter;
+    snapsLeaderBoardAdapter Adapter;
     DatabaseReference DatabaseReference;
 
     RecyclerView snapsRecyclerView;
@@ -36,7 +37,7 @@ public class snapsFragment extends Fragment {
 
 
         //RecyclerView Code For Food Filters
-        DatabaseReference = FirebaseDatabase.getInstance().getReference().child("filterFoodList");
+        DatabaseReference = FirebaseDatabase.getInstance().getReference().child("leaderboardList");
         RecyclerView = (RecyclerView) view.findViewById(R.id.snaps_leader_board_recyclerview);
         RecyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false));
         RecyclerView.getRecycledViewPool().clear();
@@ -54,7 +55,7 @@ public class snapsFragment extends Fragment {
                 new FirebaseRecyclerOptions.Builder<Model>()
                         .setQuery(DatabaseReference, Model.class)
                         .build();
-        Adapter = new homeFilterFoodAdapter(options);
+        Adapter = new snapsLeaderBoardAdapter(options);
         RecyclerView.setAdapter(Adapter);
 
 

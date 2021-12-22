@@ -153,6 +153,7 @@
     </androidx.cardview.widget.CardView>
 
     <LinearLayout
+        android:id="@+id/myWalletTxt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -179,6 +180,7 @@
 
 
     <TextView
+        android:id="@+id/myOrdersTxt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -188,6 +190,7 @@
         android:text="@string/orders_text" />
 
     <TextView
+        android:id="@+id/mangeAddressTxt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -197,6 +200,7 @@
         android:text="@string/addresses_text" />
 
     <TextView
+        android:id="@+id/supportTxt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -206,6 +210,7 @@
         android:text="@string/Support_text" />
 
     <TextView
+        android:id="@+id/shareAppTxt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -215,6 +220,7 @@
         android:text="@string/Share_text" />
 
     <TextView
+        android:id="@+id/logOutTxt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
