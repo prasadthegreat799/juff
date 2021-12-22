@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">juff</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--- Menu Names -->
+    <string name="home">Home</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="snaps">Snaps</string>
+    <string name="profile">Account</string>
+
+    <!--- Helper Strings -->
+    <string name="food_planner">Dont know what to eat? Food Planner</string>
+    <string name="temp_location">Set Your Location</string>
+    <string name="search_text">Find Food and Restaurant in your city</string>
+    <string name="nearby_rest">Nearby Restaurants</string>
+    <string name="leader_board">LeaderBoard</string>
+    <string name="view_all">View All</string>
+    <string name="snap">Snap</string>
+    <string name="user_name">User Name</string>
+    <string name="user_phone">+91 79XXXXXX57</string>
+    <string name="user_rating">Rating Here</string>
+    <string name="coupon_code">Coupon Code:</string>
+    <string name="coupon_code_data">912XXXXXXXX0000</string>
+    <string name="rest_name">Green Spice Restaurant</string>
+    <string name="rest_temp_item1">1 x Chilli Chicken</string>
+    <string name="rest_temp_item2">1 x Chicken Biryani</string>
+    <string name="rest_temp_item3">2 x Rotis</string>
+    <string name="pre_order">Pre-Order</string>
+
+    <!---Restaurants Fragment String -->
+    <string name="rest_address">South Indian, Chinese</string>
+    <string name="rest_ratings">4.9 </string>
+    <string name="total_rest_ratings">(809 Ratings) </string>
+    <string name="rest_address2">Madhapur, Hyderabad </string>
+    <string name="post_caption">“ Just had a wonderful dinner at Green Spice with my friend ”</string>
+    <string name="menu">Menu</string>
+    <string name="items_count">1 x Chilli Chicken</string>
+
+
+    <!--- Profile Stringgs -->
+    <string name="username">User Name</string>
+    <string name="offer_text">100% Offer Upto 150INR on minimum spend of 299INR</string>
+    <string name="rewards_text">*Complete the Level to get the Reward</string>
+    <string name="mywallet_text">My Wallet</string>
+    <string name="wallet_amount">Remaining Amount: 453 INR</string>
+    <string name="orders_text">Orders</string>
+    <string name="addresses_text">Manage Addresses</string>
+    <string name="Support_text">Support</string>
+    <string name="Share_text">Share</string>
+    <string name="Logout_text">Logout</string>
+
+
+    <!-- Rest Details String -->
+    <string name="Dinein">Dine-in</string>
+    <string name="takeaway">Take away</string>
+    <string name="partypack">Party Pack</string>
+
+
+
+</resources>

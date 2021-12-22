@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "958638316443",
+    "project_id": "juff-fad88",
+    "storage_bucket": "juff-fad88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958638316443:android:9715408324736afc999f3e",
+        "android_client_info": {
+          "package_name": "com.nappdeveloper.juff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958638316443-t8rqdrk9lhiarllgu34em00kbejlavbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPrN18vbM4rMK4hh2-97f7i2Df8UzG9uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958638316443-t8rqdrk9lhiarllgu34em00kbejlavbr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
